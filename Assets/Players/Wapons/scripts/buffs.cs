@@ -5,12 +5,11 @@ using UnityEngine;
 public class buffs : MonoBehaviour
 {
     
-    public bool BuffoVelocidad;
     // Start is called before the first frame update
     void Start()
     {
         
-        BuffoVelocidad = false;
+        
     }
 
     // Update is called once per frame
@@ -25,7 +24,7 @@ public class buffs : MonoBehaviour
         {
             // player toca el icono y se destruye
             case "player":Destroy(gameObject);
-            BuffoVelocidad = true;
+            
             break;
             //
             

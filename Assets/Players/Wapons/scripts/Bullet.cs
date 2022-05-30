@@ -28,6 +28,9 @@ public class Bullet : MonoBehaviour
             //destruye bala
             case"enemy":Destroy(gameObject);
             break;
+            //destruye el objeto si se toca la bala rosa
+            case"ShVeloBuffo":Destroy(gameObject);
+            break;
             case"ballenemy":
             //compara si la bala aliada es tocada por una bala enemiga
             //si las TAGs fueran iguales la balas del mismo  tipo se destruirian por ejemplo enemigo con enemigo 

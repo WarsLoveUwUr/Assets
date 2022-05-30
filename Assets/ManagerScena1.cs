@@ -18,6 +18,12 @@ public class ManagerScena1 : MonoBehaviour
         yield return new WaitForSeconds(2);
         //crea el icono del buff
         weapon.VelBuff();
+        yield return new WaitForSeconds(10);
+        //crea el icono del buff
+        weapon.VelBuff();
+        yield return new WaitForSeconds(10);
+        //crea el icono del buff
+        weapon.VelBuff();
 
 
         
